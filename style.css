@@ -1,0 +1,44 @@
+:root {
+    --sage: rgb(89, 158, 98);
+    --sand: rgb(239, 225, 180)
+}
+
+body {
+    background-color: var(--sage);
+}
+
+.sand {
+    background-color: var(--sand);
+    color: salmon;
+    max-width: 55%;
+    margin: 20px auto;
+    text-align: center;
+    border: solid var(--sage) 1px;
+    border-radius: 10px;
+}
+
+.sand h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.card, .accordian {
+    margin: 10px auto;
+    width: 70%;
+}
+
+.accordian-button {
+    text-align: center;
+}
+
+.recipe > h2 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.recipe {
+    background-color: white;
+    border: solid var(--sage) 1px;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 70%;
+}
